@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+
+<body>
+    <h1>CALCULATOR</h1>
+<div class="container">
+
+    <input type="text" id="display" readonly>
+    <button class="general all" onclick="input('clear')">CLEAR</button>
+    <button class="general all" onclick="input('delete')">DELETE</button>
+    <button class="general all" onclick="leftbracket()">(</button>
+    <button class="general all" onclick="rightbracket()">)</button>
+
+
+    <button class="general all" onclick="input('7')">7</button>
+    <button class="general all" onclick="input('8')">8</button>
+    <button class="general all" onclick="input('9')">9</button>
+    <button class="general all" onclick="input('/')">/</button>
+
+    <button class="general all" onclick="input('4')">4</button>
+    <button class="general all" onclick="input('5')">5</button>
+    <button class="general all" onclick="input('6')">6</button>
+    <button class="general all" onclick="input('*')">*</button>
+
+    <button class="general all" onclick="input('1')">1</button>
+    <button class="general all" onclick="input('2')">2</button>
+    <button class="general all" onclick="input('3')">3</button>
+    <button class="general all" onclick="input('+')">+</button>
+
+    <button class="general all" onclick="input('0')">0</button>
+    <button class="general all" onclick="input('.')">.</button>
+    <button class="general all" onclick="output()">=</button>
+    <button class="general all" onclick="input('-')">-</button>
+
+</div>
+
+
+
+<script src="project1.js"></script>
+</body>
+
+</html>

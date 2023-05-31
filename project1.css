@@ -1,0 +1,60 @@
+body {
+    background-image: url(vector-math-whiteboard-border-background.jpg),url(https://static.vecteezy.com/system/resources/previews/000/625/844/original/geometric-abstract-light-blue-background-for-website-wallpapers-bussines-templates-vector.jpg) ;
+    background-size: 1600px 1400px, cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: black;
+    margin: 350px;
+}
+
+.container{
+    margin-top: 1500px;
+    text-align: center;
+    width: 900px;
+    height: 600px;
+    margin: 30px auto;
+    border: 3px black solid;
+}
+
+#display {
+    background-color: transparent;
+    height: 100px;
+    float: left;
+    width: 100%;
+    font-size: 40px;
+    border: 3px black solid;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.general {
+    background-color: transparent;
+    height: 100px;
+    float: left;
+    width: 25%;
+    font-size: 40px;
+    border: 3px black solid;
+    box-sizing: border-box;
+    padding: 30px;
+}
+/* 
+.firstrow {
+    background-color: transparent;
+    height: 100px;
+    float: left;
+    width: 50%;
+    font-size: 40px;
+    border: 3px black solid;
+    box-sizing: border-box;
+    padding: 25px;
+} */
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+.all:hover {
+    font-weight: bold;
+}
+.all:active {
+    background-color: aqua;
+}
